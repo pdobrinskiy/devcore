@@ -13,4 +13,3 @@ pprint (output)
 dns = Dq(output).get_values('dn')
 
 pprint (dns)
-pprint ('changes from branch1')
