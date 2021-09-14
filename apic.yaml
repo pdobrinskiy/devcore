@@ -1,0 +1,17 @@
+devices:
+  apic1:
+    os: apic
+    custom:
+      abstraction:
+        order: [os]
+    type : router
+    connections:
+      rest:
+        class: rest.connector.Rest
+        ip: sandboxapicdc.cisco.com
+        credentials:
+          rest:
+            username: admin
+            password: '!v3G@!4@Y'
+  ios1:
+    os: ios
